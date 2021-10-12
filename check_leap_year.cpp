@@ -46,3 +46,51 @@ int main()
     return 0;
 }
 
+
+// METHOD 2 
+
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+   int year;
+   cout<<"Enter year   = ",cin>>year;
+   
+   if(year%400 ==0)
+   {
+       cout<<"leap year";
+   }
+    else if(year%100==0)
+    {
+        cout<<"not";
+    }
+    else if(year%4 ==0)
+    {
+        cout<<"leap year";
+    }
+
+
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
